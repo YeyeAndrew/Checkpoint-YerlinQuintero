@@ -1,0 +1,33 @@
+git init
+git brach -M main
+git remote add origin https://github.com/YeyeAndrew/Checkpoint-YerlinQuintero.git
+touch main.js index.html
+git add .
+git commit -m 'commit 01 de YerlinQuintero'
+git remote add origin https://github.com/YeyeAndrew/Checkpoint-YerlinQuintero.git
+git push -u origin main
+git branch feature
+git branch
+git checkout feature
+mkdir Hardware Software SeguridadInformatica
+for folder in Hardware Software SeguridadInformatica; do touch "$folder/resumen.txt"; done
+ll
+git status
+git add .
+git commit -m 'commit 02 de YerlinQuintero'
+git push origin feature
+git checkout main
+mv main.js resumenHardware.txt && mv index.html resumenSoftware.txt
+ll
+nano resumenSoftware.txt
+cat resumenSoftware.txt
+echo "RAM" >> resumenHardware.txt
+echo "ROM" >> resumenHardware.txt
+echo "cache" >> resumenHardware.txt
+cat resumenHardware.txt
+touch comandos.txt
+ll
+nano comandos.txt
+git add .
+git commit -m 'commit 03 de YerlinQuintero'
+git push origin master

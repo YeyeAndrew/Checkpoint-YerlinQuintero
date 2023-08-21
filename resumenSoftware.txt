@@ -1,0 +1,3 @@
+Ejemplo 1: Microsoft Excel
+Ejemplo 2: Photoshop
+Ejemplo 3: Visual Studio Code
